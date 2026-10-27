@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BookStore CRUD Project</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f1f5f9;
+      color: #1e293b;
+    }
+    header {
+      background: #163b70;
+      color: white;
+      text-align: center;
+      padding: 35px 15px;
+    }
+    main {
+      max-width: 850px;
+      margin: 30px auto;
+      padding: 20px;
+    }
+    section {
+      background: white;
+      padding: 22px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+    }
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+      gap: 12px;
+    }
+    .feature {
+      background: #e8f0ff;
+      padding: 18px;
+      border-radius: 8px;
+      text-align: center;
+    }
+    a.button {
+      display: inline-block;
+      background: #163b70;
+      color: white;
+      padding: 12px 18px;
+      border-radius: 6px;
+      text-decoration: none;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #64748b;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>BookStore CRUD System</h1>
+    <p>Java + MySQL Standalone Application</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>About the Project</h2>
+      <p>
+        A BookStore management project developed using Java and MySQL.
+        It demonstrates database connectivity and CRUD operations.
+      </p>
+    </section>
+
+    <section>
+      <h2>Project Features</h2>
+      <div class="features">
+        <div class="feature">📚 Add Books</div>
+        <div class="feature">📖 View Books</div>
+        <div class="feature">✏️ Update Books</div>
+        <div class="feature">🗑️ Delete Books</div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Technologies Used</h2>
+      <p>Java · JDBC · MySQL · Eclipse IDE</p>
+      <a class="button"
+         href="https://github.com/dasarijanapriya4-source/Java-MySQL-CRUD"
+         target="_blank" rel="noopener">
+        View Source Code on GitHub
+      </a>
+    </section>
+  </main>
+
+  <footer>BookStore CRUD Project</footer>
+</body>
+</html>
